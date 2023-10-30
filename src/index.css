@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+html,
+body,
+#root,
+.app,
+.content {
+  font-family: "Source Sance Pro", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.grid-with-background {
+  background-image: url("centre.jpg");
+}
+
+.p-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .label-col {
+  min-width: 120px;
+  margin-right: 1rem;
+  
+}
+
+label {
+  font-weight: bold;
+}
+
+.p-dropdown-sm .p-dropdown-label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.p-dropdown-sm .p-dropdown-items .p-dropdown-item {
+  font-size: 14px;
+  color: #555;
+}
+
+.p-dropdown-sm .p-dropdown-items .p-dropdown-item.p-highlight {
+  background-color: #f1f1f1;
+}
+
+#options-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.radio {
+  display: inline-block;
+  margin: 10px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.select {
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f2f2f2;
+  font-size: 16px;
+}
+
+.option {
+  font-size: 16px;
+}
+
+.input[type="radio"] {
+  margin-right: 5px;
+}
+
+.input[type="radio"]:checked+label {
+  color: #007bff;
+}
+ */
+
+/* The following line can be included in your src/index.js or App.js file */
+
+/*
+ *  ScrollBar Style
+ */
+
+ .styleScroll::-webkit-scrollbar-track
+ {
+     box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+     border-radius: 10px;
+     background-color: #F5F5F5;
+ }
+ 
+ .styleScroll::-webkit-scrollbar
+ {
+     width: 8px;
+     background-color: #F5F5F5;
+ }
+ 
+ .styleScroll::-webkit-scrollbar-thumb
+ {
+     border-radius: 10px;
+     box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+     background-color: #555
+ }
